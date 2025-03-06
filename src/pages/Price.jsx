@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { useParams } from "react-router-dom"
 
@@ -6,9 +5,7 @@ export default function Price() {
     const apiKey = import.meta.env.VITE_API_KEY;
     const params = useParams()
     const symbol = params.symbol
-
     const url = `https://rest.coinapi.io/v1/exchangerate/${symbol}/USD?apikey=${apiKey}`;
-
 
     const [coin, setCoin] = useState("null");
 
