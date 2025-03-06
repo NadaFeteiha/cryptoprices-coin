@@ -4,8 +4,8 @@ This project is a cryptocurrency price tracker built with React and React Router
 
 ## Screenshots
 
-![Home Page](path/to/img.png)
-![Price Details Page](path/to/img2.png)
+![Home Page](https://github.com/NadaFeteiha/cryptoprices-coin/blob/main/src/assets/img.png)
+![Price Details Page](https://github.com/NadaFeteiha/cryptoprices-coin/blob/main/src/assets/img2.png)
 
 ## Getting Started
 
