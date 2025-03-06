@@ -1,12 +1,41 @@
-# React + Vite
+# CryptoPrices Coin
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a cryptocurrency price tracker built with React and React Router.
 
-Currently, two official plugins are available:
+## Screenshots
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![Home Page](path/to/img.png)
+![Price Details Page](path/to/img2.png)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+To get started with this project, follow these steps:
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/yourusername/cryptoprices-coin.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd cryptoprices-coin
+   ```
+3. Install the dependencies:
+   ```sh
+   npm install
+   ```
+
+## Environment Variables
+
+You will need to set up the following environment variables in a `.env` file at the root of the project:
+
+- `REACT_APP_API_KEY`: Your API key for accessing the cryptocurrency price data.
+
+Example `.env` file:
+
+```
+VITE_API_KEY=your_api_key_here
+```
+
+## API
+
+This project uses the [CoinGecko API](https://www.coingecko.com/en/api) to fetch cryptocurrency price data. Make sure to sign up and get your API key.
